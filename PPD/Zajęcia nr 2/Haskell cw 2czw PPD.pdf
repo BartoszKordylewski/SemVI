@@ -1,0 +1,631 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ext="http://extjs.com/docs" xml:lang="pl" lang="pl">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<meta name="description" content="OLAT - Online Learning And Training" />
+<meta name="keywords" content="OLAT, eLearning, LMS, Learning management system, LCMS, Learning Content Management System, Open Source, elearning, JAVA, IMS, QTI, SCORM, Content package, collaboration, usability, performance, scalability" /> 
+<meta name="DC.creator" content="University of Zurich - http://www.uzh.ch" />
+<meta name="DC.subject" content="OLAT - Online Learning And Training - Your Open Source Learning Management System" />
+<meta name="DC.contributor" content="see http://www.olat.org/website/en/html/download_license.html" />
+<meta name="DC.date" content="2010-03-16" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.type" content="Interactive Resource" scheme="DCTERMS.DCMIType" />
+<meta name="DC.identifier" content="http://www.olat.org/" scheme="DCTERMS.URI" />
+<meta name="DC.rights" content="http://www.olat.org/website/en/html/download_license.html" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma-directive" content="no-cache" />
+<meta http-equiv="cache-directive" content="no-cache" />
+<script type="text/javascript">
+/* <![CDATA[ */ 
+var o_info = new Object();
+o_info.initialPageLoadFinished = false;
+o_info.o_winid = 1016791826;
+o_info.uriprefix="/stacjonarne/auth/";
+o_info.bc="";
+o_info.dirty_form = "Uwaga! Nie zapisałeś danych wprowadzonych do tego formularza. Klikając OK Twoje zmiany nie zostaną zapisane.";
+o_info.locale = "pl";
+o_info.lastClickTime = new Date().getTime();
+o_info.o_baseURI = "/stacjonarne/raw/20120312/";
+o_info.b_classPathStaticBaseURI = "/stacjonarne/classpath/20120312/";
+o_info.b_textMarkingIframeIntervals = new Array();
+
+if (top!=self){top.location=self.location+"?o_winrndo=1";}
+function b_start(){
+if (window["Ext"]) {Ext.QuickTips.init();}
+o_init();
+
+o_info.initialPageLoadFinished = true;
+}
+/* ]]> */
+</script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/scriptaculous/src/scriptaculous.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/scriptaculous/src/effects.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/scriptaculous/src/controls.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/scriptaculous/src/sound.js"></script>
+<link rel="stylesheet" type="text/css" href="/stacjonarne/raw/20120312/js/ext/resources/css/ext-all.css" />
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/adapter/prototype/ext-prototype-adapter.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/ext-core.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/ext-foundation.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/cmp-foundation.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/ext-dd.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/resizable.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/data-foundation.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/data-json.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/data-list-views.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/window.js"></script>		<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/pkg-buttons.js"></script>	<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/pkg-toolbars.js"></script>	<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/pkg-tips.js"></script> 		<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/pkg-tree.js"></script> 		<script type="text/javascript" src="/stacjonarne/raw/20120312/js/ext/pkgs/pkg-forms.js"></script> 	<script type="text/javascript">
+Ext.BLANK_IMAGE_URL = '/stacjonarne/raw/20120312/images/csshelper/s.gif';
+o_info.objectMap = new Ext.util.MixedCollection();
+</script>
+
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/functions.js"></script>
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/jsTranslator.js"></script>
+<script type="text/javascript">var b_jsTranslatorFactory = new JSTranslatorFactory("/stacjonarne/g/20120312org.olat.core.commons.chiefcontrollers.JSTranslatorMapper");</script>
+
+<script type="text/javascript" src="/stacjonarne/raw/20120312/js/jsMath/easy/load.js"></script>
+<script type="text/javascript" src='/stacjonarne/raw/20120312/movie/player.js'></script>
+
+
+
+<script type="text/javascript" src="/stacjonarne/classpath/20120312/org.olat.core.logging/js/JSTracing.js"></script>
+<script type="text/javascript" src="/stacjonarne/classpath/20120312/org.olat.core.commons.modules.bc.components/js/folder.js"></script>
+
+<link rel="icon" href="/stacjonarne/raw/20120312/themes/wmidefault/favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="/stacjonarne/raw/20120312/themes/wmidefault/favicon.ico" type="image/x-icon" /> 
+<link id="b_theme_css" href="/stacjonarne/raw/20120312/themes/wmidefault/layout.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+<link href="/stacjonarne/raw/20120312/themes/wmidefault/patches.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- empty -->
+<style id="b_fontSize_css" type="text/css">#b_page_margins{font-size:100%}</style>
+
+<script type='text/javascript'>o_info.JSTracingUri='/stacjonarne/m/13102/';o_info.JSTracingLogDebugEnabled=false;</script>
+
+<title>OLAT - Studia stacjonarne - Online Learning And Training</title></head>
+<body onload="b_start();" id="b_body" class="b_lang_pl">
+<!-- START guiDebug -->
+
+<!-- END guiDebug -->
+<!-- START inlineTranslation -->
+
+<!-- END inlineTranslation -->
+<!-- START jsServer -->
+<div id="o_c1016791830"><div id="o_c1016791829"><div style="height:0px">
+<script type="text/javascript">
+/* <![CDATA[ */ 
+
+function log(s) {
+	try {
+		if (!window.ActiveXObject) {
+					}
+	} catch (me) {}
+}
+
+var stopped = true;
+
+function initPolling () {
+	o_info.lastClickTime = new Date().getTime();
+	pollgrowth = 0;
+	pollcount  = 0;
+	if (stopped) {
+		stopped = false;
+		tick();
+	}
+}
+
+Event.observe("b_body","click",function(event){initPolling();});
+Event.observe("b_body","mouseover",function(event){initPolling();});
+Event.observe("b_body","keyup",function(event){initPolling();});
+
+o_info.mainwinref = this.window;
+o_info.wins = {};
+
+var pollperiod  = 5000;
+var growthrate  = 10; //
+var pollminutes = 60; //
+var ishighlight = false;
+var showjson    = false;
+
+
+var pollcount = 0;
+var pollError = 0;
+var pollgrowth = 0;
+var timestampLastPoll = new Date().getTime();
+
+
+// set timestamp cookie to inform other windows that they are outdated
+var sbtimestamp = new Date().getTime();
+var sbcookie = 'OLAT-UI-TIMESTAMP';
+if (window.opener == null) document.cookie = sbcookie+'='+sbtimestamp+'; path=/';
+//
+
+
+
+function tick () {
+		new PeriodicalExecuter(function(pe) {
+		if ( !o_info.linkbusy && (pollperiod > 1000) && (pollError < 2) ) {
+			try {
+				var now = new Date().getTime();
+								if ((now - o_info.lastClickTime) < (pollminutes*60*1000)) {
+					if ((now - timestampLastPoll) > (pollperiod + pollgrowth)) {
+						timestampLastPoll = now;
+						pollcount++;
+						pollgrowth = Math.ceil((pollperiod+pollgrowth)*(100+growthrate)/100)-pollperiod;
+						o_info.ajaxpp = new Ajax.Request('/stacjonarne/m/13100/', {method: 'post', onComplete:onPollSuccess, onFailure: onPollFailure});
+						var idl = (now - o_info.lastClickTime)/1000;
+											}
+				} else {
+										stopped = true;
+				}
+			} catch (e) {
+								pe.stop(); //stop on errors
+			}
+		} else {
+														}
+
+		// if window is not a popup window, become a standby window 
+		// in case the cookie timestamp is newer than the own one set while loading
+		// because another window holds the current UI which works
+		if (window.opener == null) {
+			var p = sbcookie + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') c = c.substring(1,c.length);
+				if (c.indexOf(p) == 0) {
+					try {
+						var ts = Math.floor(c.substring(p.length,c.length));
+						if (ts > sbtimestamp) {
+							window.onunload=null;
+							window.onbeforeunload=null;
+							window.location='/stacjonarne/m/13101/';
+						}
+					} catch (e) {
+						// does not matter
+					};
+				}
+			}
+		}
+	}, 1);
+}
+
+
+Ext.onReady(initPolling);
+
+
+
+function onPollSuccess(r) {
+	if(r.status == 200){
+	 	pollError = 0;
+	 	o_onc(r);
+	} else {
+	 	pollError++;
+	}
+}
+
+function onPollFailure() {
+  pollError++;
+}
+
+/* ]]> */
+</script>
+<div id="o_c1016791831"><div id="o_c1016791828"><script type="text/javascript">
+/* <![CDATA[ */ 
+if (pollperiod != 5000) {
+	pollperiod = 5000;
+	}
+/* ]]> */
+</script>
+</div></div>
+
+<div id="oaawrp" style="visibility:hidden;width:0px;height:0px">
+<iframe src='/stacjonarne/raw/20120312/empty.html' name="oaa0" id="oaa0" width="1" height="1"></iframe>
+</div>
+</div>
+
+</div></div>
+<!-- END jsServer -->
+
+<!-- START olatContentPanel -->
+<div id="o_c1016791832"><div id="o_c1016792062"><div id="o_c1016791842"><div id="o_c1016791837"><div id="o_c1016791841"><div id="o_c1016792061"><!-- empty --></div></div>
+<div id="o_c1016791839"><!-- empty --></div>
+<div id="o_c1016791840"><div id="o_c1016792060"><div id="o_c1016792057"><div id="o_c1016791844"><div id="b_page_margins"><div id="b_page_wrapper">
+<div id="b_border-top">
+	<div id="b_edge-lt"></div>
+	<div id="b_edge-rt"></div>
+</div>
+<div id="b_page">
+<a id='b_top' name="b_top"></a>
+
+<div id="b_header">
+
+<span class="b_skip">Klawisze dostępu do szybkiej nawigacji</span>
+<a accesskey="0" class="b_skip" href="#b_top">0: Góra strony</a>
+<a accesskey="n" class="b_skip" href="#b_nav">n: Nawigacja główna</a>
+<span class="b_skip">Elementy nawigacji głównej: h: home; g; groups; r: learning resources</span>
+<span class="b_skip">Aktywne zasoby i grupy: 1, 2, 3...</span>
+<a accesskey="o" class="b_skip" href="#b_topnav">o: Nawigacja górna</a>
+<a accesskey="m" class="b_skip" href="#b_col1">m: Menu</a>
+<a accesskey="c" class="b_skip" href="#b_col3">c: Zawartość</a>
+<a accesskey="t" class="b_skip" href="#b_col2">t: Narzędzia i czynności</a>
+<a accesskey="a" class="b_skip" href="#b_table">a: Zawartość tabeli (jeśli dostępne)</a>
+<a accesskey="d" class="b_skip" href="#b_modal">d: Modal dialog (jeśli dostępne)</a>
+<span class="b_skip">b: Krok wstecz (jeśli dostępne)</span>
+<span class="b_skip">Zaktualizowane obszary ekranu (tryb Web2.a, tylko w IE): u, u, u...</span>
+
+<div id="b_logo"></div>
+	<div id="o_c1016791851"><!-- empty --></div>
+	<div id="b_topnav">
+		<a name="b_topnav"></a>
+		<div id="o_c1016791878"><div id="o_c1016791852"><ul>
+	<li id="o_topnav_search">
+		<div id="o_c1016791860"><div id="o_c1016791859"><form  method="post" name="ofo_1016791859" action="/stacjonarne/auth/1%3A3%3A1016791859%3A2%3A1%3Aofo_%3Afid/"  onsubmit="if(o_info.linkbusy) return false; else o_beforeserver(); return true;"  target="oaa0"><input type="hidden" id="ofo_1016791859_dispatchuri" name="dispatchuri" value="undefined" /><input type="hidden" id="ofo_1016791859_eventval" name="dispatchevent" value="undefined" /><div id="o_c1016791858"><div class="b_form b_form_horizontal  b_clearfix">
+
+		<div class="b_form_element_wrapper b_form_horizontal">
+					<div class="b_form_element_label b_form_horizontal">
+			<div id="o_c1016791864"><div id="o_c1016791869"><!-- empty --></div></div>
+					</div>
+						<div class="b_form_element b_form_horizontal">
+			<div id="o_c1016791865"><input type="text" id="o_fi1016791865" name="o_fi1016791865" size="35" maxlength="255" value=""  /> <script type="text/javascript">
+ /* <![CDATA[ */ 
+(function() {var o_fi1016791865 = Ext.get('o_fi1016791865'); o_fi1016791865.on('change',setFlexiFormDirtyByListener,document,{formId:"ofo_1016791859_dispatchuri"});o_fi1016791865.on('keypress',setFlexiFormDirtyByListener,document,{formId:"ofo_1016791859_dispatchuri"});})();
+ /* ]]> */ 
+</script></div>
+								</div>
+			</div>
+		<div class="b_form_element_wrapper b_form_horizontal">
+							<div class="b_form_element b_form_horizontal">
+			<span id="o_c1016791877"><a class="o_fulltext_search_button b_small_icon" id="o_fi1016791877" href="javascript:o_ffEvent('ofo_1016791859','ofo_1016791859_dispatchuri','o_fi1016791877','ofo_1016791859_eventval','2')" ><span  ext:qtip="Szukaj w: &quot;W OLAT&quot;"></span></a></span>
+								</div>
+			</div>
+
+</div>
+</div></form> <script type="text/javascript">
+ /* <![CDATA[ */ 
+ (function() {Ext.get(document.forms['ofo_1016791859']).on('keypress', function(event) {if (13 == event.keyCode) {if (document.forms['ofo_1016791859'].onsubmit()) {document.forms['ofo_1016791859'].submit();}}})})();
+ /* ]]> */ 
+</script></div></div>
+	</li>
+	<li id="o_topnav_printview">
+		<a href="javascript:b_doPrint();" title="Drukuj t&#281; stron&#281;" >Drukuj</a>
+	</li>
+
+	<li id="o_topnav_help">
+		<span id="o_c1016791853"><a class="" target="_help" id="o_lnk1016791853" href="/stacjonarne/auth/1%3A3%3A1016791853%3A2%3A0%3Acid%3Atopnav.help/" onclick="return o2cl();"><span  ext:qtip="Uruchom pomoc">Pomoc</span></a> <script type="text/javascript">
+/* <![CDATA[ */
+(function(){var o_lnk1016791853 = Ext.get('o_lnk1016791853');if (o_lnk1016791853) o_lnk1016791853.on("click",removeBusyAfterDownload,document,{delay: 1200}); })();
+/* ]]> */
+</script></span>
+	</li>
+	
+	<li id="o_topnav_logout">
+								<a id="b_logout" href="/stacjonarne/auth/1%3A3%3A1016791852%3A2%3A0%3Acid%3Alogout/" title="Wyloguj si&#281; z OLAT" onclick="if (window.olatonunload) {olatonunload();}"><span class="b_logout_icon">Wyloguj</span></a>
+	</li>
+</ul></div></div>
+	</div>
+</div>
+
+<div id="b_nav">
+	<a name="b_nav"></a>
+	<div id="o_c1016791845"><div id="b_nav_main">
+<ul>
+		<li class="b_nav_site o_site_home">
+		<div> 			<span id="o_c1016791848"><a class="" target="oaa0" id="o_lnk1016791848" accesskey="h" href="/stacjonarne/auth/1%3A3%3A1016791848%3A2%3A1%3Acid%3At/" onclick="return o2cl();"><span  title="To jest tw&oacute;j osobisty punkt  startowy">Strona główna</span></a></span>
+		</div>
+	</li>	
+			<li class="b_nav_site o_site_groups">
+		<div> 			<span id="o_c1016791849"><a class="" target="oaa0" id="o_lnk1016791849" accesskey="g" href="/stacjonarne/auth/1%3A3%3A1016791849%3A2%3A1%3Acid%3At/" onclick="return o2cl();"><span  title="Pracuj ze swoimi osobistymi grupami edukacyjnymi i roboczymi">Grupy</span></a></span>
+		</div>
+	</li>	
+			<li class="b_nav_site o_site_repository">
+		<div> 			<span id="o_c1016791850"><a class="" target="oaa0" id="o_lnk1016791850" accesskey="r" href="/stacjonarne/auth/1%3A3%3A1016791850%3A3%3A1%3Acid%3At/" onclick="return o2cl();"><span  title="Szukaj swoich zasob&oacute;w edukacyjnych">Zasoby edukacyjne</span></a></span>
+		</div>
+	</li>	
+		<li id="b_nav_spacer"></li> 		<li class="b_nav_tab b_nav_active b_resource_CourseModule">
+		<div> 			<span id="o_c1016792929"><a class="" target="oaa0" id="o_lnk1016792929" accesskey="s" href="/stacjonarne/auth/1%3A3%3A1016792929%3A2%3A1%3Acid%3Aa0/" onclick="return o2cl();"><span  title="06-DL Podstawy programowania deklaratywnego (06-DPPDLI0)">06-DL Podsta...</span></a></span>
+			<span id="o_c1016792931"><a class="b_nav_tab_close" target="oaa0" id="o_lnk1016792931" href="/stacjonarne/auth/1%3A3%3A1016792931%3A2%3A1%3Acid%3Acp0/" ext:qtip="Zamknij" onclick="return o2cl();"><span  ext:qtip="Zamknij"></span></a></span>	 		</div>
+	</li>
+	</ul>
+	<script type="text/javascript">
+	/* <![CDATA[ */ 
+		document.title = "OLAT - Studia stacjonarne - 06-DL Podstawy programowania deklaratywnego (06-DPPDLI0)";
+	/* ]]> */
+	</script>
+</div>
+</div>
+</div>
+
+
+	<div id="o_c1016791880"><div id="o_c1016792932"><div id="o_c1016792919"><div id="o_c1016792918"><script type="text/javascript">
+/* <![CDATA[ */
+o_info.course_id="18579485";
+function o_activateCourseNode(nodeid) {
+	if (!o_info.linkbusy) { 
+		o_beforeserver();
+		window.focus();
+		frames['oaa0'].location.href = "/stacjonarne/auth/1%3A3%3A1016792918%3A2%3A1%3Acid%3AactivateCourseNode/" + nodeid;
+				Effect.ScrollTo('b_top');
+	}
+}
+/* ]]> */ 
+</script>
+<div id="o_c1016792861"><div id="o_c1016792917"><div id="o_c1016792913">
+<div id="b_main" class="">
+			<div id="b_col1" style="width: 14em;">
+		<div id="b_col1_content" class="b_clearfix"> 
+			<a name="b_col1"></a>
+			<div class="b_floatbox">
+				<div id="o_c1016792914"><div id="o_c1016792862">
+<div class="b_tree"><ul class="b_tree_l0">
+<li class=""><a class=" b_tree_icon o_st_icon b_tree_selected_parents b_tree_l0" onclick="try {if(o2cl()){Effect.ScrollTo('b_top'); return true;} else {return false;}} catch(e){return false}" href="/stacjonarne/auth/1%3A3%3A1016792862%3A9%3A1%3Anidle%3A99222406894516/" title="06-DL Podstawy programowania deklaratywnego (06-DPPDLI0)" target="oaa0">06-DL Podst.progr.dekl.</a>
+<ul class=" b_tree_l1">
+<li class=""><a class=" b_tree_icon o_bc_icon b_tree_l1" onclick="try {if(o2cl()){Effect.ScrollTo('b_top'); return true;} else {return false;}} catch(e){return false}" href="/stacjonarne/auth/1%3A3%3A1016792862%3A9%3A1%3Anidle%3A99222406894518/" title="" target="oaa0">Plan i zasady zaliczenia</a></li>
+<li class=""><a class=" b_tree_icon o_bc_icon b_tree_l1" onclick="try {if(o2cl()){Effect.ScrollTo('b_top'); return true;} else {return false;}} catch(e){return false}" href="/stacjonarne/auth/1%3A3%3A1016792862%3A9%3A1%3Anidle%3A99222406894520/" title="PPD" target="oaa0">Materia&#322;y z wyk&#322;adu</a></li>
+<li class=""><strong><a class=" b_tree_icon o_bc_icon b_tree_selected b_tree_l1" onclick="try {if(o2cl()){Effect.ScrollTo('b_top'); return true;} else {return false;}} catch(e){return false}" href="/stacjonarne/auth/1%3A3%3A1016792862%3A9%3A1%3Anidle%3A99222406894522/" title="PPD" target="oaa0">Materia&#322;y na &#263;wiczenia</a></strong></li>
+<li class=""><a class=" b_tree_icon o_ta_icon b_tree_l1" onclick="try {if(o2cl()){Effect.ScrollTo('b_top'); return true;} else {return false;}} catch(e){return false}" href="/stacjonarne/auth/1%3A3%3A1016792862%3A9%3A1%3Anidle%3A99222406894524/" title="" target="oaa0">&#262;wiczenia 2-pn</a></li>
+<li class=""><a class=" b_tree_icon o_ta_icon b_tree_l1" onclick="try {if(o2cl()){Effect.ScrollTo('b_top'); return true;} else {return false;}} catch(e){return false}" href="/stacjonarne/auth/1%3A3%3A1016792862%3A9%3A1%3Anidle%3A99222406894526/" title="" target="oaa0">&#262;wiczenia 2-czw</a></li></ul></li></ul>
+</div></div></div>	
+			</div>
+		</div>
+	</div>
+					<div id="b_col2" style="width: 12em;">
+		<div id="b_col2_content" class="b_clearfix"> 
+			<a name="b_col2"></a>
+			<div class="b_floatbox">
+				<div id="o_c1016792915"><div id="o_c1016792907"><div id="o_c1016792906"><div class="b_toolboxes">
+
+					
+				<div class="b_toolbox">
+				<div class="b_toolbox_head_wrapper">
+			<div class="b_toolbox_head">
+				<div class="b_toolbox_head_icon b_toolbox_head_default"><strong>Moje grupy edukacyjne</strong></div>
+			</div>
+		</div>
+				<div class="b_toolbox_content"> 
+		<ul>
+				<li class="b_clearfix"><span id="o_c1016792908"><a class="b_toolbox_link" target="oaa0" id="o_lnk1016792908" href="/stacjonarne/auth/1%3A3%3A1016792908%3A1%3A1%3Acid%3Acmd.group.start.ident.30867456/" onclick="return o2cl();"><span >2019SL</span></a></span></li>
+							</ul></div>
+		</div>
+				
+				<div class="b_toolbox">
+				<div class="b_toolbox_head_wrapper">
+			<div class="b_toolbox_head">
+				<div class="b_toolbox_head_icon b_toolbox_head_default"><strong>Ogólne</strong></div>
+			</div>
+		</div>
+				<div class="b_toolbox_content"> 
+		<ul>
+				<li class="b_clearfix"><span id="o_c1016792909"><a class="b_toolbox_link" target="oaa0" id="o_lnk1016792909" href="/stacjonarne/auth/1%3A3%3A1016792909%3A1%3A1%3Acid%3Acourseconfig/" onclick="return o2cl();"><span >Szczegóły</span></a></span></li>
+							<li class="b_clearfix"><a href="javascript:void(o_openPopUp('/stacjonarne/auth/1%3A3%3A1016792906%3A2%3A0%3Acid%3Apersonalnote/', 'personalnote', '750', '550', false))" onclick="return o2cl()" class="b_toolbox_link">Prywatne notatki</a></li>
+						<li class="b_clearfix"><span id="o_c1016792910"><a class="b_toolbox_link" target="oaa0" id="o_lnk1016792910" href="/stacjonarne/auth/1%3A3%3A1016792910%3A1%3A1%3Acid%3Abm/" onclick="return o2cl();"><span >Ustaw zakładkę</span></a></span></li>
+				<li class="b_clearfix"><span id="o_c1016792912"><span  ext:qtip="Liczba uczestników kursu" class=" b_disabled ">Uczestnicy kursu</span></span></li>
+	
+			</ul></div>
+		</div>
+</div></div></div></div>
+			</div>
+		</div>
+	</div>
+					<div id="b_col3" style="margin-left: 14em; margin-right: 12em;">
+		<div id="b_col3_content" class="b_clearfix">
+						<a id="b_content" name="content"></a> 
+			<div id="b_col3_content_inner" class="b_floatscrollbox">
+				<a name="b_col3"></a>
+				<div id="o_c1016792916"><div id="o_c1016792863"><div id="o_c1016820563"><div id="o_c1016820562"><div class="b_titled_wrapper o_course_run">
+	<h3 class="b_titled_wrapper  b_with_small_icon_left o_bc_icon ">
+				Materiały na ćwiczenia
+	</h3>
+<div id="o_c1016820561"><div id="o_c1016820527"><div class="b_briefcase">
+	<div id="o_c1016820534"><div id="o_c1016820531"><div id="o_c1016820529"><div class="b_noti"> 
+	<a href="javascript:contextHelpWindow('/stacjonarne/help/pl/org.olat.core.util.notifications/home-notifications.html')" title="Pomoc dotycz&#261;ca powiadomie&#324;" class="b_contexthelp"></a>
+	Modyfikacje:&nbsp;
+	<span class="b_noti_actions"> 
+					<span id="o_c1016820532"><a class="b_noti_subscribe_link" target="oaa0" id="o_lnk1016820532" href="/stacjonarne/auth/1%3A3%3A1016820532%3A2%3A1%3Acid%3Acommand.subscribe/" onclick="return o2cl();"><span >Subskrybuj</span></a></span>
+			</span>
+	&nbsp;
+</div></div></div></div>
+	<div class="b_briefcase_foldercomp">
+				<div class="b_briefcase_searchcomp"><div id="o_c1016820541"><div id="o_c1016820540"><form  method="post" name="ofo_1016820540" action="/stacjonarne/auth/1%3A3%3A1016820540%3A2%3A1%3Aofo_%3Afid/"  onsubmit="if(o_info.linkbusy) return false; else o_beforeserver(); return true;"  target="oaa0"><input type="hidden" id="ofo_1016820540_dispatchuri" name="dispatchuri" value="undefined" /><input type="hidden" id="ofo_1016820540_eventval" name="dispatchevent" value="undefined" /><div id="o_c1016820539"><div class="b_form b_form_horizontal  b_clearfix">
+
+		<div class="b_form_element_wrapper b_form_horizontal">
+					<div class="b_form_element_label b_form_horizontal">
+			<div id="o_c1016820545"><div id="o_c1016820550"><!-- empty --></div></div>
+					</div>
+						<div class="b_form_element b_form_horizontal">
+			<div id="o_c1016820546"><input type="text" id="o_fi1016820546" name="o_fi1016820546" size="35" maxlength="255" value=""  /> <script type="text/javascript">
+ /* <![CDATA[ */ 
+(function() {var o_fi1016820546 = Ext.get('o_fi1016820546'); o_fi1016820546.on('change',setFlexiFormDirtyByListener,document,{formId:"ofo_1016820540_dispatchuri"});o_fi1016820546.on('keypress',setFlexiFormDirtyByListener,document,{formId:"ofo_1016820540_dispatchuri"});})();
+ /* ]]> */ 
+</script></div>
+								</div>
+			</div>
+		<div class="b_form_element_wrapper b_form_horizontal">
+							<div class="b_form_element b_form_horizontal">
+			<span id="o_c1016820558"><a class="o_fulltext_search_button b_small_icon" id="o_fi1016820558" href="javascript:o_ffEvent('ofo_1016820540','ofo_1016820540_dispatchuri','o_fi1016820558','ofo_1016820540_eventval','2')" ><span  ext:qtip="Szukaj w: &quot;Materia&#322;y na &#263;wiczenia&quot;"></span></a></span>
+								</div>
+			</div>
+
+</div>
+</div></form> <script type="text/javascript">
+ /* <![CDATA[ */ 
+ (function() {Ext.get(document.forms['ofo_1016820540']).on('keypress', function(event) {if (13 == event.keyCode) {if (document.forms['ofo_1016820540'].onsubmit()) {document.forms['ofo_1016820540'].submit();}}})})();
+ /* ]]> */ 
+</script></div></div></div>
+				<div class="b_briefcase_folder"><div id="o_c1016820559"><form  method="post" id="folder1016820792" action="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Acid%3Aaction/" onsubmit="if ( b_briefcase_isChecked('folder1016820792', 'Wybierz co najmniej jeden obiekt dla tej akcji.')) { if(o_info.linkbusy) return false; else o_beforeserver(); return true; } else {return false; }" target="oaa0"><div class="b_briefcase_createactions b_clearfix"><ul><li><a class="b_briefcase_upload" href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Acid%3Aul/" target="oaa0">Przekaż plik</a></li><li><a class="b_briefcase_newfolder" href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Acid%3Acf/" target="oaa0">Utwórz folder</a></li><li><a class="b_briefcase_newfile" href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Acid%3Acfile/" target="oaa0">Utwórz plik</a></li></ul></div><div class="b_briefcase_breadcrumb">/&nbsp;<a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1/" target="oaa0">Materiały na ćwiczenia</a>&nbsp;/&nbsp;grupa czwartek</div><table class="b_briefcase_filetable"><thead><tr><th class="b_briefcase_col_name b_first_child"><a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Afcsrt%3Aname/" target="oaa0" ext:qtip="Nazwa">Nazwa</a></th><th class="b_briefcase_col_size"><a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Afcsrt%3Asize/" target="oaa0" ext:qtip="Rozmiar">Rozmiar</a></th><th class="b_briefcase_col_type"><a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Afcsrt%3Atype/" target="oaa0" ext:qtip="Typ">Typ</a></th><th class="b_briefcase_col_date"><a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Afcsrt%3Adate/" target="oaa0" ext:qtip="Zmodyfikowany">Zmodyfikowany</a></th><th class="b_briefcase_col_info"><a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Afcsrt%3Alock/" target="oaa0" ext:qtip="Status">Status</a></th><th class="b_briefcase_col_info b_last_child"><span ext:qtip="Metadane">Metadane</span></th></tr></thead><tbody><tr><td class="b_first_child"><input type="checkbox" class="b_checkbox" name="paths" value="Haskell cw 1czw PPD.pdf" /><a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A0%3Aserv%3Ax/grupa%20czwartek/Haskell%20cw%201czw%20PPD.pdf" target="_blank" class="b_with_small_icon_left b_filetype_file b_filetype_pdf" ext:qtip="<div class='b_ext_tooltip_wrapper b_briefcase_meta'><div class='b_briefcase_preview' style='width:200px; height:200px; background-image:url(/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A0%3Aservthumb%3Ax/grupa%20czwartek/Haskell%20cw%201czw%20PPD.pdf); background-repeat:no-repeat; background-position:50% 50%;'>&nbsp;</div><p>Autor: mkolowsk</p></div>">Haskell cw 1czw PPD.pdf</a></td><td>122 KB</td><td>PDF plik</td><td>19-03-04 15:44</td><td></td><td class="b_last_child"><table class="b_briefcase_actions"><tr><td><span class="b_small_icon b_briefcase_noicon">&#160;</span></td><td><span class="b_small_icon b_briefcase_noicon">&#160;</span></td><td><span class="b_small_icon b_briefcase_noicon">&#160;</span></td><td><a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Afcedt%3A0/" target="oaa0" ext:qtip="Edytuj metadane" class=" b_small_icon b_briefcase_edit_meta_icon">&#160;</a></td></tr></table></td></tr><tr class="b_table_odd"><td class="b_first_child"><input type="checkbox" class="b_checkbox" name="paths" value="Haskell cw 2czw PPD.pdf" /><a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A0%3Aserv%3Ax/grupa%20czwartek/Haskell%20cw%202czw%20PPD.pdf" target="_blank" class="b_with_small_icon_left b_filetype_file b_filetype_pdf" ext:qtip="<div class='b_ext_tooltip_wrapper b_briefcase_meta'><div class='b_briefcase_preview' style='width:200px; height:200px; background-image:url(/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A0%3Aservthumb%3Ax/grupa%20czwartek/Haskell%20cw%202czw%20PPD.pdf); background-repeat:no-repeat; background-position:50% 50%;'>&nbsp;</div><p>Autor: mkolowsk</p></div>">Haskell cw 2czw PPD.pdf</a></td><td>389 KB</td><td>PDF plik</td><td>19-03-07 12:38</td><td></td><td class="b_last_child"><table class="b_briefcase_actions"><tr><td><span class="b_small_icon b_briefcase_noicon">&#160;</span></td><td><span class="b_small_icon b_briefcase_noicon">&#160;</span></td><td><span class="b_small_icon b_briefcase_noicon">&#160;</span></td><td><a href="/stacjonarne/auth/1%3A3%3A1016820559%3A3%3A1%3Afcedt%3A1/" target="oaa0" ext:qtip="Edytuj metadane" class=" b_small_icon b_briefcase_edit_meta_icon">&#160;</a></td></tr></table></td></tr></tbody></table><div class="b_togglecheck"><a href="#" onclick="javascript:b_briefcase_toggleCheck('folder1016820792', true)"><input type="checkbox" checked="checked" disabled="disabled" />Wybierz wszystko</a> <a href="#" onclick="javascript:b_briefcase_toggleCheck('folder1016820792', false)"><input type="checkbox" disabled="disabled" />Cofnij wszystkie zaznaczenia</a></div><div class="b_briefcase_commandbuttons b_button_group"><input type="submit" class="b_button" name=".actiondel" value="Usu&#324;"/><input type="submit" class="b_button" name=".actionmove" value="Przenie&#347;"/><input type="submit" class="b_button" name=".actioncopy" value="Kopiuj"/><input type="submit" class="b_button" name=".actionzip" value="Pakuj"/><input type="submit" class="b_button" name=".actionunzip" value="Rozpakuj"/></div></form></div></div>
+	</div>
+</div>
+
+</div></div>
+</div></div></div></div></div>		
+			</div>
+		</div>
+				<div id="b_ie_clearing">&nbsp;</div>
+	</div>
+		</div>
+
+<script type="text/javascript">
+/* <![CDATA[ */ 
+		if (!Object.isUndefined(B_ResizableColumns)) {
+		B_ResizableColumns.destroy.bind(B_ResizableColumns)(); 
+		B_ResizableColumns = null;
+	}
+	
+	var B_ResizableColumns = {	
+				_res_col1 : null, 
+				_res_col2 : null,
+				_onDomReplacementCallbackAdded : false,
+		
+			    init : function(){
+							if (B_AjaxLogger.isDebugEnabled()) B_AjaxLogger.logDebug('B_ResizableColumns.init called', "main_3cols.html");	
+		    	var col1Elem = Ext.get('b_col1');
+		    	var col1WidthStyle = col1Elem.getStyle('width');
+				this._res_col1 = new Ext.Resizable(col1Elem, {
+					handles: 'e',
+					widthIncrement: o_info.emPxFactor,
+		    		dynamic: true,
+		    		width: col1Elem.getWidth()
+				}); 
+				this._res_col1.on('resize', onResizeCol1);
+								col1Elem.setStyle('width', col1WidthStyle); 
+				col1Elem.clip();
+				col1Elem = null;
+								      	var col2Elem = Ext.get('b_col2');
+		    	var col2WidthStyle = col2Elem.getStyle('width');
+				this._res_col2 = new Ext.Resizable(col2Elem, {
+					handles: 'w',
+					widthIncrement: o_info.emPxFactor,
+		    		dynamic: true,
+		    		width: col2Elem.getWidth()
+				}); 
+				this._res_col2.on('resize', onResizeCol2);					
+								col2Elem.setStyle('width', col2WidthStyle); 
+				col2Elem.clip();
+				col2Elem = null;
+							      	var body = Ext.get('b_body');
+			body.on('click', B_ResizableColumns.setOnDomReplacementFinishedCallback, B_ResizableColumns); 
+						B_ResizableColumns.adjustHeight();
+			body = null;
+	    },
+	    
+		adjustHeight : function(){
+			if (B_AjaxLogger.isDebugEnabled()) B_AjaxLogger.logDebug('B_ResizableColumns.adjustHeight called', "main_3cols.html");	
+			try {
+													var col1Elem = Ext.get('b_col1_content');
+					col1Elem.setHeight('auto');
+					col1Elem = null;
+													var col2Elem = Ext.get('b_col2_content');
+					col2Elem.setHeight('auto');
+					col2Elem = null
+												var contentHeight = b_getMainColumnsMaxHeight();
+													var col1Elem = Ext.get('b_col1_content');
+					col1Elem.setHeight(contentHeight);
+					col1Elem = null;
+													var col2Elem = Ext.get('b_col2_content');
+					col2Elem.setHeight(contentHeight);
+					col2Elem = null;
+							} catch (e) {
+				if (B_AjaxLogger.isDebugEnabled()) B_AjaxLogger.logDebug('Exception while adjusting height with exception::' + e, "main_3cols.html");				
+			}
+						this._onDomReplacementCallbackAdded = false;
+		},
+
+		setOnDomReplacementFinishedCallback : function() {
+			if (!this._onDomReplacementCallbackAdded) {				
+				this._onDomReplacementCallbackAdded = true;
+								b_AddOnDomReplacementFinishedCallback( B_ResizableColumns.adjustHeight.bind(B_ResizableColumns) );
+			}
+		},
+
+		destroy : function() {
+						try {
+				if (this._res_col1 != null) {
+					if (B_AjaxLogger.isDebugEnabled()) B_AjaxLogger.logDebug('destroying _res_col1 resizer', "main_3cols.html");	
+					this._res_col1.purgeListeners();
+					this._res_col1.destroy(); 
+					this._res_col1 = null;
+				}
+				if (this._res_col2 != null) {
+					if (B_AjaxLogger.isDebugEnabled()) B_AjaxLogger.logDebug('destroying _res_col2 resizer', "main_3cols.html");	
+					this._res_col2.purgeListeners();
+					this._res_col2.destroy(); 
+					this._res_col2 = null;
+				}		
+						      	var body = Ext.get('b_body');
+				body.un('click', B_ResizableColumns.setOnDomReplacementFinishedCallback, B_ResizableColumns); 
+				body = null;
+			} catch (e) {
+				if (B_AjaxLogger.isDebugEnabled()) B_AjaxLogger.logDebug('Exception while destroying ResizeableColumns::' + e, "main_3cols.html");				
+			}
+		}
+	};
+	
+		function onResizeCol1() {
+				var newWidth = Ext.get('b_col1').getWidth(); 
+		var newEmWidth = Math.round(newWidth / o_info.emPxFactor);
+		Ext.get('b_col1').setStyle("width", newEmWidth + "em");	
+		Ext.get('b_col3').setStyle("margin-left", newEmWidth + "em");	
+		if (B_AjaxLogger.isDebugEnabled()) B_AjaxLogger.logDebug('col1 width::' + newWidth + " EM::" + newEmWidth + " factor::" + o_info.emPxFactor, "main_3cols.html");	
+				new Ajax.Request("/stacjonarne/auth/1%3A3%3A1016792913%3A2%3A0%3Acid%3AsaveCol1Width/" + newEmWidth);
+	}
+	
+		function onResizeCol2() {
+		var newWidth = Ext.get('b_col2').getWidth(); 
+		var newEmWidth = Math.round(newWidth / o_info.emPxFactor);
+		Ext.get('b_col2').setStyle("width", newEmWidth + "em");	
+		Ext.get('b_col3').setStyle("margin-right", newEmWidth + "em");	
+		if (B_AjaxLogger.isDebugEnabled()) B_AjaxLogger.logDebug('col2 width::' + newWidth + " EM::" + newEmWidth + " factor::" + o_info.emPxFactor, "main_3cols.html");
+				new Ajax.Request("/stacjonarne/auth/1%3A3%3A1016792913%3A2%3A0%3Acid%3AsaveCol2Width/" + newEmWidth);
+	}
+		
+		Ext.onReady(B_ResizableColumns.init, B_ResizableColumns, true);
+/* ]]> */
+</script></div></div></div></div></div></div></div>
+
+<div id="b_footer" class="b_clearfix">
+	<div class="b_floatbox">
+		<a id="b_toplink" href="#b_top" onclick="{Effect.ScrollTo('b_top'); return false;}" title="Id&#378; do g&oacute;ry strony">do góry</a>	
+			<div id="o_c1016791883"><div id="o_c1016791881"><div id="b_footer_user">
+    	<a href="http://en.wikipedia.org/wiki/Ajax_%28programming%29" target="_blank" title="Tryb AJAX jest uaktywniony, co oznacza, &#380;e OLAT pracuje teraz szybciej." class="b_ajax"></a>
+	    Zalogowany jako <i>s426156</i>  &nbsp;&nbsp;&nbsp;
+    </div>
+<div id="b_footer_version">
+	<a href="http://www.olat.org"  title="Homepage of Open Source LMS OLAT" target="_blank">OLAT 7.2.1.5 (Build 20120312) N1</a>
+</div>	
+<div id="b_footer_powered">
+	<a href="http://www.uzh.ch" target="_blank" title="University of Zurich"><img border="0" src="/stacjonarne/raw/20120312/images/olat/powered_by_uzh.png" alt="University of Zurich" width="120" height="30"/></a>
+</div>
+</div></div>
+		</div>
+</div>
+
+</div>
+
+<div id="b_border-bottom">
+	<div id="b_edge-lb"></div>
+	<div id="b_edge-rb"></div>
+</div>
+</div></div>
+
+<div id="b_messages">
+	<div id="o_c1016791847"><div id="o_c1016791843"><!-- empty --></div></div>
+</div>
+
+	<div id="o_c1016791879"><div id="o_c1016792933"><!-- empty --></div></div>
+
+</div></div></div></div>
+</div></div></div></div>
+<!-- END olatContentPanel -->
+<div id="b_ajax_busy" class=""></div>
+<div id="b_width_1em" style="width:1em; position: absolute; left: -1000px;"></div>
+<div>
+<script type="text/javascript">
+/* <![CDATA[ */ 
+// init size and listen to text resize events
+Ext.onReady(function() {b_initEmPxFactor();Ext.EventManager.onTextResize(b_initEmPxFactor)},{delay:1000});
+/* ]]> */
+</script>
+</div>
+</body></html>

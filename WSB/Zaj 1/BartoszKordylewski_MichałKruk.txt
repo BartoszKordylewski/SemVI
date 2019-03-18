@@ -1,0 +1,63 @@
+@@ZAD. 1.1
+
+####CZ1
+
+NIE
+
+####CZ2
+module Zajecia1 (KEY, LEDR);
+input[0:1] KEY;
+output[0:9] LEDR;
+
+
+assign LEDR[1] = (!KEY[0] & !KEY[1]);
+
+endmodule 
+
+####CZ3
+
+module zaj1 (KEY, LEDR);
+input[1:0] KEY;
+output[0:0] LEDR;
+
+assign LEDR[0] = !KEY[1] | !KEY[0];
+
+endmodule
+
+
+@@ZAD. 1.2
+
+####CZ1
+module Zajecia1 (KEY, LEDR);
+input[0:3] KEY;
+output[6:4] LEDR;
+
+
+assign LEDR[6:4] = !KEY[0]+!KEY[1]+!KEY[2]+!KEY[3];
+
+endmodule
+
+####CZ2
+
+module Zaj2 (SW, LEDR);
+input[9:8] SW;
+output[9:8] LEDR;
+
+
+assign LEDR[8] = !SW[8];
+assign LEDR[9] = !SW[9];
+endmodule
+
+ZAD 1.3
+
+module Zaj2 (HEX0,HEX1,HEX2,HEX3);
+output[0:6] HEX0,HEX1,HEX2,HEX3;
+
+
+assign HEX0[0:6] = 7'B0100000;   //3 liczba z indeksu (6)
+assign HEX1[0:6] = 7'B0100100;   //4 liczba z indeksu (5)
+assign HEX2[0:6] = 7'B1001111;   //5 liczba z indeksu (1)
+assign HEX3[0:6] = 7'B0100000;   //6 liczba z indeksu (6)
+endmodule
+
+
